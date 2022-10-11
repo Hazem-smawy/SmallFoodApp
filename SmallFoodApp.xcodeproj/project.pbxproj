@@ -14,6 +14,10 @@
 		2A91447F28E9B5D200792AC9 /* SmallFoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91447E28E9B5D200792AC9 /* SmallFoodAppTests.swift */; };
 		2A91448928E9B5D200792AC9 /* SmallFoodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91448828E9B5D200792AC9 /* SmallFoodAppUITests.swift */; };
 		2A91448B28E9B5D200792AC9 /* SmallFoodAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91448A28E9B5D200792AC9 /* SmallFoodAppUITestsLaunchTests.swift */; };
+		2A91449A28E9BBF400792AC9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91449928E9BBF300792AC9 /* Model.swift */; };
+		2A91449C28E9C2A100792AC9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91449B28E9C2A100792AC9 /* Home.swift */; };
+		2A91449E28E9CB7D00792AC9 /* CustomCarsoule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91449D28E9CB7D00792AC9 /* CustomCarsoule.swift */; };
+		2A9144A028E9D8A600792AC9 /* CustomArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91449F28E9D8A600792AC9 /* CustomArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		2A91448428E9B5D200792AC9 /* SmallFoodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallFoodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A91448828E9B5D200792AC9 /* SmallFoodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallFoodAppUITests.swift; sourceTree = "<group>"; };
 		2A91448A28E9B5D200792AC9 /* SmallFoodAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallFoodAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A91449928E9BBF300792AC9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2A91449B28E9C2A100792AC9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2A91449D28E9CB7D00792AC9 /* CustomCarsoule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarsoule.swift; sourceTree = "<group>"; };
+		2A91449F28E9D8A600792AC9 /* CustomArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,13 @@
 		2A91446C28E9B5CF00792AC9 /* SmallFoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A91449828E9BBE300792AC9 /* Models */,
+				2A91449728E9BBD900792AC9 /* View */,
 				2A91446D28E9B5CF00792AC9 /* SmallFoodAppApp.swift */,
 				2A91446F28E9B5CF00792AC9 /* ContentView.swift */,
 				2A91447128E9B5D200792AC9 /* Assets.xcassets */,
 				2A91447328E9B5D200792AC9 /* Preview Content */,
+				2A91449F28E9D8A600792AC9 /* CustomArc.swift */,
 			);
 			path = SmallFoodApp;
 			sourceTree = "<group>";
@@ -125,6 +136,23 @@
 				2A91448A28E9B5D200792AC9 /* SmallFoodAppUITestsLaunchTests.swift */,
 			);
 			path = SmallFoodAppUITests;
+			sourceTree = "<group>";
+		};
+		2A91449728E9BBD900792AC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A91449B28E9C2A100792AC9 /* Home.swift */,
+				2A91449D28E9CB7D00792AC9 /* CustomCarsoule.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A91449828E9BBE300792AC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A91449928E9BBF300792AC9 /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A91449A28E9BBF400792AC9 /* Model.swift in Sources */,
+				2A9144A028E9D8A600792AC9 /* CustomArc.swift in Sources */,
 				2A91447028E9B5CF00792AC9 /* ContentView.swift in Sources */,
+				2A91449C28E9C2A100792AC9 /* Home.swift in Sources */,
 				2A91446E28E9B5CF00792AC9 /* SmallFoodAppApp.swift in Sources */,
+				2A91449E28E9CB7D00792AC9 /* CustomCarsoule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
